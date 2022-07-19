@@ -21,6 +21,7 @@ commandConnectPC[15] = 0x01
 commandConnectPC = checksum(commandConnectPC)
 commandConnectPC = bytearray(commandConnectPC) 
 #print(commandConnectPC)
+
 ser = serial.Serial(
     port='/dev/ttyUSB0',
     baudrate=115200,

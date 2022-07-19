@@ -16,7 +16,7 @@ commandInitRead = [0xfa, 0xfb, 0xfc, 0xfd]
 for i in range(20):
     commandInitRead.append(0x0)
 commandInitRead[12] = 0x70
-commandInitRead[15] = 0x06
+commandInitRead[15] = 0x03
 commandInitRead[19] = 0x06
 commandInitRead[23] = 0x01
 
